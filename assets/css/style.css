@@ -66,6 +66,12 @@ Template Name: Epicurean - Food & Restaurant Html Template
     src: url("../fonts/text-fonts/value_sans_pro_bold.ttf");
     font-weight: 700;
 }
+@font-face {
+    font-family: 'cherish-regular';
+    src: url("../fonts/text-fonts/Cherish-Regular.ttf");
+    font-weight: 700;
+    /* font-size: xx-large; */
+}
 
 /* Media Query Variable */
 
@@ -74,12 +80,13 @@ Template Name: Epicurean - Food & Restaurant Html Template
 :root {
     /*font Variable*/
     --ff-value-sans-pro: 'value_sans_pro';
+    --ff-cherish-regular: 'cherish-regular';
     --ff-abril-display: 'abril_display';
     --ff-bakilda-histori: 'bakilda_histori';
     /*Color Variable*/
     --text-heading-black: #101113;
     --text-bogy-gray: #53565C;
-    --primary-yellow: rgb(255, 0, 230);
+    --primary-yellow: #28CED1;
     --color-off-white: #F8F8F8;
     --color-white: #FFF;
 }
@@ -133,7 +140,7 @@ h2.h2 {
 html,
 body {
     font-weight: 400;
-    font-size: 16px;
+    font-size: 20px;
     color: var(--text-bogy-gray);
     font-family: var(--ff-value-sans-pro);
     line-height: 1.5;
@@ -268,7 +275,7 @@ input:-webkit-autofill:focus {
 }
 
 .bg_color_off_light_black {
-    background-color: #17191E;
+    background-color: #09090B;
 }
 
 .bg_color_off_light_yellow {
@@ -458,9 +465,10 @@ body::-webkit-scrollbar-thumb {
 /*Back to Top btn End*/
 
 .section-title span {
-    font-family: var(--ff-value-sans-pro);
+    font-family: var(--ff-cherish-regular);
     color: var(--primary-yellow);
     display: inline-block;
+    font-size: 3rem;
 }
 
 .section-title h2 {
@@ -507,7 +515,7 @@ body::-webkit-scrollbar-thumb {
 
 .common-btn.style-border {
     color: var(--primary-yellow);
-    border: 1px solid rgb(255, 0, 230);
+    border: 1px solid #28CED1;
     background: transparent;
 }
 
@@ -1306,7 +1314,17 @@ body::-webkit-scrollbar-thumb {
     max-width: 492px;
     width: 100%;
     height: 490px;
-    background-image: url(https://www.chemnerdz.com/cdn/shop/products/200g-x-0-01g-LCD-Display-Mini-Jewelry-Drug-Digital-Portable-Pocket-Scale-Practical-Electronic-Balance_800x.jpg?v=1657661672);
+    background-image: url(https://bluebellbd.net/html/odor/assets/images/product/product-image5.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 14px;
+}
+.about-img-wrap .about-img-main-wrap:hover {
+    max-width: 492px;
+    width: 100%;
+    height: 490px;
+    background-image: url(https://bluebellbd.net/html/odor/assets/images/product/product-image8.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -1728,7 +1746,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .about-content-info-single .about-content-info-details p {
-    font-size: 14px;
+    font-size: 16px;
     margin-top: 5px;
 }
 
@@ -1952,7 +1970,7 @@ body::-webkit-scrollbar-thumb {
     border-radius: 50%;
     line-height: 1;
     color: var(--primary-yellow);
-    border: 1px solid rgb(255, 0, 230);
+    border: 1px solid rgb(0, 242, 255);
 }
 
 .slider-button-wrap .slide-btn-prev i,
@@ -3442,7 +3460,7 @@ body::-webkit-scrollbar-thumb {
 .footer-area {
     padding: 80px 0 30px;
     background: url(../images/footer-bg.png), -webkit-gradient(linear, left top, left bottom, color-stop(100%, rgba(10, 20, 46, 0.2)), to(rgba(10, 20, 46, 0.2)));
-    background: url(https://vape-blog.com/wp-content/uploads/2021/04/vape-4.jpg), linear-gradient(rgba(10, 20, 46, 0.2) 100%, rgba(10, 20, 46, 0.2) 100%);
+    background: url(https://i0.wp.com/portalyoba.com.br/wp-content/uploads/2023/05/Depositphotos-356186696-L.jpg?resize=1920%2C1282&ssl=1), linear-gradient(rgba(10, 20, 46, 0.2) 100%, rgba(10, 20, 46, 0.2) 100%);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -4133,3 +4151,28 @@ body::-webkit-scrollbar-thumb {
     display: flex;
     flex-direction: row-reverse;
 }
+
+
+.cigarhover:hover{
+    img {
+        content: url("../smokers_images/cigar/cohib\ \(1\).png");
+    }
+}
+.thchover:hover{
+    img {
+        content: url("../smokers_images/cbd_vapes/dozo/grande.jpeg");
+    }
+}
+
+.tapout:hover{
+        img {
+            content: url("../smokers_images/cbd_vapes/Modus/tapout/TapOutBlend3.0-LEMONVUITTON_5ba3d28e-dac2-4508-902e-5f22bfec5d53.webp");
+        }
+    
+    }
+.rolling:hover{
+        img {
+            content: url("../smokers_images/rolling_tray/ACKK_single_up.png");
+        }
+    
+    }
