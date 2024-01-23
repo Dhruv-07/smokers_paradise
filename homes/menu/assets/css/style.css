@@ -79,7 +79,7 @@ Template Name: Epicurean - Food & Restaurant Html Template
     /*Color Variable*/
     --text-heading-black: #101113;
     --text-bogy-gray: #53565C;
-    --primary-yellow: rgb(255, 0, 230);
+    --primary-yellow: #FD9900;
     --color-off-white: #F8F8F8;
     --color-white: #FFF;
 }
@@ -340,7 +340,7 @@ body::-webkit-scrollbar-thumb {
     animation: 1.5s one 0.5s forwards;
     height: 300px;
     width: 300px;
-    color: #c6009b;
+    color: #F0A939;
 }
 
 @media only screen and (max-width: 991.98px) {
@@ -507,7 +507,7 @@ body::-webkit-scrollbar-thumb {
 
 .common-btn.style-border {
     color: var(--primary-yellow);
-    border: 1px solid rgb(255, 0, 230);
+    border: 1px solid #FD9900;
     background: transparent;
 }
 
@@ -597,7 +597,7 @@ body::-webkit-scrollbar-thumb {
 .breadcrumb-area {
     padding: 243px 0 156px;
     background: -webkit-gradient(linear, left top, left bottom, color-stop(16.65%, rgba(0, 0, 0, 0.57)), color-stop(100.78%, #000)), url(../images/breadcrumb-img.png);
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.57) 16.65%, #000 100.78%), url(https://justvape.nu/wp-content/uploads/2020/09/banner-vape.jpg);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.57) 16.65%, #000 100.78%), url(../images/breadcrumb-img.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1306,7 +1306,7 @@ body::-webkit-scrollbar-thumb {
     max-width: 492px;
     width: 100%;
     height: 490px;
-    background-image: url(https://www.chemnerdz.com/cdn/shop/products/200g-x-0-01g-LCD-Display-Mini-Jewelry-Drug-Digital-Portable-Pocket-Scale-Practical-Electronic-Balance_800x.jpg?v=1657661672);
+    background-image: url(../images/about/about-2.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -1315,22 +1315,6 @@ body::-webkit-scrollbar-thumb {
 
 @media only screen and (max-width: 767.98px) {
     .about-img-wrap .about-img-main-wrap {
-        height: 550px;
-    }
-}
-.about-img-wrap .about-img-main-wrapnew {
-    max-width: 492px;
-    width: 100%;
-    height: 590px;
-    background-image: url(https://bugatti-vape.com/wp-content/uploads/2023/10/Bugatti-elite-9000.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    border-radius: 14px;
-}
-
-@media only screen and (max-width: 767.98px) {
-    .about-img-wrap .about-img-main-wrapnew {
         height: 550px;
     }
 }
@@ -1952,7 +1936,7 @@ body::-webkit-scrollbar-thumb {
     border-radius: 50%;
     line-height: 1;
     color: var(--primary-yellow);
-    border: 1px solid rgb(255, 0, 230);
+    border: 1px solid #FD9900;
 }
 
 .slider-button-wrap .slide-btn-prev i,
@@ -2042,7 +2026,7 @@ body::-webkit-scrollbar-thumb {
 
 .food-menu-category .nav-link.active,
 .food-menu-category .show>.nav-link {
-    border-bottom: 2px solid rgb(255, 0, 230);
+    border-bottom: 2px solid #FD9900;
     background-color: unset;
 }
 
@@ -2066,7 +2050,7 @@ body::-webkit-scrollbar-thumb {
     padding: 8px;
     border-radius: 50%;
     display: inline-block;
-    border: 1px dashed rgb(255, 0, 230);
+    border: 1px dashed #FD9900;
     overflow: hidden;
     margin-top: -96px;
 }
@@ -2156,7 +2140,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .food-menu-two-box .food-menu-two-info {
-    border: 1px solid #bc009dab;
+    border: 1px solid #d9d9d9ab;
     border-radius: 20px;
     border-top-right-radius: unset;
     border-top-left-radius: unset;
@@ -2170,7 +2154,7 @@ body::-webkit-scrollbar-thumb {
     letter-spacing: 0.1px;
 }
 
-.-menu-two-box .food-menu-two-info p {
+.food-menu-two-box .food-menu-two-info p {
     margin: 10px 0;
 }
 
@@ -2933,8 +2917,8 @@ body::-webkit-scrollbar-thumb {
 =================================================*/
 
 .reservation-area {
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(100%, rgba(16, 17, 19, 0.5)), to(rgba(16, 17, 19, 0.5))), url(https://www.landgcdn.com/wp-content/uploads/2021/12/BORD-1920-06-min.jpg);
-    background: linear-gradient(rgba(16, 17, 19, 0.5) 100%, rgba(16, 17, 19, 0.5) 100%), url(https://scx2.b-cdn.net/gfx/news/hires/2018/3-smoking.jpg);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(100%, rgba(16, 17, 19, 0.5)), to(rgba(16, 17, 19, 0.5))), url(../images/reservation-bg.png);
+    background: linear-gradient(rgba(16, 17, 19, 0.5) 100%, rgba(16, 17, 19, 0.5) 100%), url(../images/reservation-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -2961,8 +2945,8 @@ body::-webkit-scrollbar-thumb {
 }
 
 .ui-datepicker .ui-datepicker-header {
-    background: rgb(255, 0, 230);
-    border: rgb(255, 0, 230);
+    background: #FD9900;
+    border: #FD9900;
     color: #fff;
 }
 
@@ -2997,8 +2981,8 @@ body::-webkit-scrollbar-thumb {
 .ui-state-focus,
 .ui-widget-content .ui-state-focus,
 .ui-widget-header .ui-state-focus {
-    border: 1px solid rgb(255, 0, 230);
-    background: rgb(255, 0, 230);
+    border: 1px solid #FD9900;
+    background: #FD9900;
     font-weight: normal;
     color: #fff;
 }
@@ -3442,7 +3426,7 @@ body::-webkit-scrollbar-thumb {
 .footer-area {
     padding: 80px 0 30px;
     background: url(../images/footer-bg.png), -webkit-gradient(linear, left top, left bottom, color-stop(100%, rgba(10, 20, 46, 0.2)), to(rgba(10, 20, 46, 0.2)));
-    background: url(https://vape-blog.com/wp-content/uploads/2021/04/vape-4.jpg), linear-gradient(rgba(10, 20, 46, 0.2) 100%, rgba(10, 20, 46, 0.2) 100%);
+    background: url(../images/footer-bg.png), linear-gradient(rgba(10, 20, 46, 0.2) 100%, rgba(10, 20, 46, 0.2) 100%);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -4124,12 +4108,3 @@ body::-webkit-scrollbar-thumb {
 =================================================*/
 
 /*# sourceMappingURL=style.css.map */
-
-
-
-/* dhrcoder css code*/
-
-.row_reverse{
-    display: flex;
-    flex-direction: row-reverse;
-}
